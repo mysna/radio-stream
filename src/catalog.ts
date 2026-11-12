@@ -51,34 +51,35 @@ const KBS_CHANNELS: Array<[ch: string, code: string, label: string]> = [
   ["2fm", "25", "2FM"],
   ["hanminjok", "26", "한민족방송"],
 ];
-const KBS_CITIES: Array<[city: string, code: string, label: string]> = [
-  ["busan", "10", "부산"],
-  ["ulsan", "11", "울산"],
-  ["changwon", "20", "창원"],
-  ["jinju", "21", "진주"],
-  ["daegu", "30", "대구"],
-  ["andong", "31", "안동"],
-  ["pohang", "32", "포항"],
-  ["gwangju", "40", "광주"],
-  ["mokpo", "41", "목포"],
-  ["suncheon", "43", "순천"],
-  ["jeonju", "50", "전주"],
-  ["daejeon", "60", "대전"],
-  ["cheongju", "70", "청주"],
-  ["chungju", "71", "충주"],
-  ["chuncheon", "80", "춘천"],
-  ["gangneung", "81", "강릉"],
-  ["wonju", "82", "원주"],
-  ["jeju", "90", "제주"],
+// 지역국마다 실제로 송출하는 라디오 채널만 둔다(없는 조합은 API가 빈 주소를 준다).
+// 2026-11-12 국내 회선에서 check:streams로 전 조합을 확인한 결과다.
+const KBS_CITIES: Array<[city: string, code: string, label: string, channels: string[]]> = [
+  ["busan", "10", "부산", ["1radio", "2radio", "1fm"]],
+  ["ulsan", "11", "울산", ["1radio"]],
+  ["changwon", "20", "창원", ["1radio", "2radio", "1fm"]],
+  ["jinju", "21", "진주", ["1radio"]],
+  ["daegu", "30", "대구", ["1radio", "2radio", "1fm"]],
+  ["andong", "31", "안동", ["1radio"]],
+  ["pohang", "32", "포항", ["1radio"]],
+  ["gwangju", "40", "광주", ["1radio", "2radio", "1fm"]],
+  ["mokpo", "41", "목포", ["1radio", "1fm"]],
+  ["suncheon", "43", "순천", ["1radio"]],
+  ["jeonju", "50", "전주", ["1radio", "2radio", "1fm"]],
+  ["daejeon", "60", "대전", ["1radio", "2radio", "1fm"]],
+  ["cheongju", "70", "청주", ["1radio", "2radio", "1fm"]],
+  ["chungju", "71", "충주", ["1radio", "1fm"]],
+  ["chuncheon", "80", "춘천", ["1radio", "2radio", "1fm"]],
+  ["gangneung", "81", "강릉", ["1radio", "1fm"]],
+  ["wonju", "82", "원주", ["1radio", "1fm"]],
+  ["jeju", "90", "제주", ["1radio", "2radio", "1fm"]],
 ];
-const KBS_REGIONAL_CHANNELS = new Set(["1radio", "2radio", "1fm"]);
 
 const kbs: CatalogEntry[] = [
   ...KBS_CHANNELS.map(([ch, code, label]) =>
     entry(`KBS ${label}`, "kbs", ch, null, { kind: "kbs", code }),
   ),
-  ...KBS_CITIES.flatMap(([city, cityCode, cityLabel]) =>
-    KBS_CHANNELS.filter(([ch]) => KBS_REGIONAL_CHANNELS.has(ch)).map(([ch, code, label]) =>
+  ...KBS_CITIES.flatMap(([city, cityCode, cityLabel, channels]) =>
+    KBS_CHANNELS.filter(([ch]) => channels.includes(ch)).map(([ch, code, label]) =>
       entry(`KBS${cityLabel} ${label}`, "kbs", ch, city, {
         kind: "kbs",
         code: `${cityCode}_${code}`,

@@ -24,7 +24,9 @@ async function probe(url: string): Promise<string> {
     await response.body?.cancel();
     return String(response.status);
   } catch (error) {
-    return error instanceof Error ? error.name : "error";
+    // fetch 실패(TypeError)는 원인(인증서·연결 거부 등)이 cause에 들어 있다.
+    const cause = (error as { cause?: { code?: string } }).cause?.code;
+    return cause ?? (error instanceof Error ? error.name : "error");
   }
 }
 
