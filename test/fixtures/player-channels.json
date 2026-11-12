@@ -1,0 +1,342 @@
+[
+ { "name": "KBS 1라디오", "stn": "kbs", "ch": "1radio", "city": null
+ },
+ { "name": "KBS 2라디오", "stn": "kbs", "ch": "2radio", "city": null
+ },
+ { "name": "KBS 3라디오", "stn": "kbs", "ch": "3radio", "city": null
+ },
+ { "name": "KBS 1FM", "stn": "kbs", "ch": "1fm", "city": null
+ },
+ { "name": "KBS 2FM", "stn": "kbs", "ch": "2fm", "city": null
+ },
+ { "name": "KBS 한민족방송", "stn": "kbs", "ch": "hanminjok", "city": null
+ },
+ { "name": "MBC 표준FM", "stn": "mbc", "ch": "sfm", "city": null
+ },
+ { "name": "MBC FM4U", "stn": "mbc", "ch": "fm4u", "city": null
+ },
+ { "name": "MBC mini 올댓뮤직", "stn": "mbc", "ch": "chm", "city": null
+ },
+ { "name": "SBS 러브FM", "stn": "sbs", "ch": "lovefm", "city": null
+ },
+ { "name": "SBS 파워FM", "stn": "sbs", "ch": "powerfm", "city": null
+ },
+ { "name": "SBS 고릴라디오M", "stn": "sbs", "ch": "dmb", "city": null
+ },
+ { "name": "EBS FM", "stn": "ebs", "ch": "fm", "city": null
+ },
+ { "name": "EBS 반디 외국어 전문", "stn": "ebs", "ch": "bandi", "city": null
+ },
+ { "name": "OBS 라디오", "stn": "obs", "ch": null, "city": null
+ },
+ { "name": "iFM 경인방송", "stn": "ifm", "ch": null, "city": null
+ },
+ { "name": "YTN 라디오", "stn": "ytn", "ch": null, "city": null
+ },
+ { "name": "TBS FM", "stn": "tbs", "ch": "fm", "city": null
+ },
+ { "name": "TBS eFM", "stn": "tbs", "ch": "efm", "city": null
+ },
+ { "name": "TBN 경인교통방송", "stn": "tbn", "ch": null, "city": null
+ },
+ { "name": "CBS 표준FM", "stn": "cbs", "ch": "sfm", "city": null
+ },
+ { "name": "CBS 음악FM", "stn": "cbs", "ch": "mfm", "city": null
+ },
+ { "name": "CBS JOY4U", "stn": "cbs", "ch": "joy4u", "city": null
+ },
+ { "name": "FEBC 서울극동방송", "stn": "febc", "ch": null, "city": null
+ },
+ { "name": "BBS 서울불교방송", "stn": "bbs", "ch": null, "city": null
+ },
+ { "name": "CPBC 가톨릭평화방송", "stn": "cpbc", "ch": null, "city": null
+ },
+ { "name": "WBS 서울원음방송", "stn": "wbs", "ch": null, "city": null
+ },
+ { "name": "국방FM", "stn": "kookbang", "ch": null, "city": null
+ },
+ { "name": "국악방송", "stn": "kugak", "ch": null, "city": null
+ },
+ { "name": "AFN FM Humphreys", "stn": "afn", "ch": null, "city": "humphreys"
+ },
+ { "name": "KBS부산 1라디오", "stn": "kbs", "ch": "1radio", "city": "busan"
+ },
+ { "name": "KBS부산 2라디오", "stn": "kbs", "ch": "2radio", "city": "busan"
+ },
+ { "name": "KBS부산 음악FM", "stn": "kbs", "ch": "1fm", "city": "busan"
+ },
+ { "name": "KBS울산 1라디오", "stn": "kbs", "ch": "1radio", "city": "ulsan"
+ },
+ { "name": "KBS창원 1라디오", "stn": "kbs", "ch": "1radio", "city": "changwon"
+ },
+ { "name": "KBS창원 2라디오", "stn": "kbs", "ch": "2radio", "city": "changwon"
+ },
+ { "name": "KBS창원 음악FM", "stn": "kbs", "ch": "1fm", "city": "changwon"
+ },
+ { "name": "KBS진주 1라디오", "stn": "kbs", "ch": "1radio", "city": "jinju"
+ },
+ { "name": "부산MBC 표준FM", "stn": "mbc", "ch": "sfm", "city": "busan"
+ },
+ { "name": "부산MBC FM4U", "stn": "mbc", "ch": "fm4u", "city": "busan"
+ },
+ { "name": "울산MBC 표준FM", "stn": "mbc", "ch": "sfm", "city": "ulsan"
+ },
+ { "name": "울산MBC FM4U", "stn": "mbc", "ch": "fm4u", "city": "ulsan"
+ },
+ { "name": "MBC경남 표준FM", "stn": "mbc", "ch": "sfm", "city": "changwon"
+ },
+ { "name": "MBC경남 FM4U", "stn": "mbc", "ch": "fm4u", "city": "changwon"
+ },
+ { "name": "KNN 러브FM", "stn": "sbs", "ch": "lovefm", "city": "busan"
+ },
+ { "name": "KNN 파워FM", "stn": "sbs", "ch": "powerfm", "city": "busan"
+ },
+ { "name": "UBC 그린FM", "stn": "sbs", "ch": "powerfm", "city": "ulsan"
+ },
+ { "name": "TBN 부산교통방송", "stn": "tbn", "ch": null, "city": "busan"
+ },
+ { "name": "TBN 울산교통방송", "stn": "tbn", "ch": null, "city": "ulsan"
+ },
+ { "name": "TBN 경남교통방송", "stn": "tbn", "ch": null, "city": "gyeongnam"
+ },
+ { "name": "부산CBS 표준FM", "stn": "cbs", "ch": "sfm", "city": "busan"
+ },
+ { "name": "부산CBS 음악FM", "stn": "cbs", "ch": "mfm", "city": "busan"
+ },
+ { "name": "울산CBS 표준FM", "stn": "cbs", "ch": "sfm", "city": "ulsan"
+ },
+ { "name": "경남CBS 표준FM", "stn": "cbs", "ch": "sfm", "city": "gyeongnam"
+ },
+ { "name": "FEBC 부산극동방송", "stn": "febc", "ch": null, "city": "busan"
+ },
+ { "name": "FEBC 울산극동방송", "stn": "febc", "ch": null, "city": "ulsan"
+ },
+ { "name": "FEBC 창원극동방송", "stn": "febc", "ch": null, "city": "changwon"
+ },
+ { "name": "BBS 부산불교방송", "stn": "bbs", "ch": null, "city": "busan"
+ },
+ { "name": "CPBC 부산가톨릭평화방송", "stn": "cpbc", "ch": null, "city": "busan"
+ },
+ { "name": "WBS 부산원음방송", "stn": "wbs", "ch": null, "city": "busan"
+ },
+ { "name": "부산영어방송", "stn": "befm", "ch": null, "city": null
+ },
+ { "name": "KBS대구 1라디오", "stn": "kbs", "ch": "1radio", "city": "daegu"
+ },
+ { "name": "KBS대구 2라디오", "stn": "kbs", "ch": "2radio", "city": "daegu"
+ },
+ { "name": "KBS대구 음악FM", "stn": "kbs", "ch": "1fm", "city": "daegu"
+ },
+ { "name": "KBS안동 1라디오", "stn": "kbs", "ch": "1radio", "city": "andong"
+ },
+ { "name": "KBS포항 1라디오", "stn": "kbs", "ch": "1radio", "city": "pohang"
+ },
+ { "name": "대구MBC 표준FM", "stn": "mbc", "ch": "sfm", "city": "daegu"
+ },
+ { "name": "대구MBC FM4U", "stn": "mbc", "ch": "fm4u", "city": "daegu"
+ },
+ { "name": "안동MBC 표준FM", "stn": "mbc", "ch": "sfm", "city": "andong"
+ },
+ { "name": "안동MBC FM4U", "stn": "mbc", "ch": "fm4u", "city": "andong"
+ },
+ { "name": "포항MBC 표준FM", "stn": "mbc", "ch": "sfm", "city": "pohang"
+ },
+ { "name": "포항MBC FM4U", "stn": "mbc", "ch": "fm4u", "city": "pohang"
+ },
+ { "name": "TBC 드림FM", "stn": "sbs", "ch": "powerfm", "city": "daegu"
+ },
+ { "name": "TBN 대구교통방송", "stn": "tbn", "ch": null, "city": "daegu"
+ },
+ { "name": "TBN 경북교통방송", "stn": "tbn", "ch": null, "city": "gyeongbuk"
+ },
+ { "name": "대구CBS 표준FM", "stn": "cbs", "ch": "sfm", "city": "daegu"
+ },
+ { "name": "대구CBS 음악FM", "stn": "cbs", "ch": "mfm", "city": "daegu"
+ },
+ { "name": "포항CBS 표준FM", "stn": "cbs", "ch": "sfm", "city": "pohang"
+ },
+ { "name": "FEBC 대구극동방송", "stn": "febc", "ch": null, "city": "daegu"
+ },
+ { "name": "FEBC 포항극동방송", "stn": "febc", "ch": null, "city": "pohang"
+ },
+ { "name": "BBS 대구불교방송", "stn": "bbs", "ch": null, "city": "daegu"
+ },
+ { "name": "CPBC 대구가톨릭평화방송", "stn": "cpbc", "ch": null, "city": "daegu"
+ },
+ { "name": "WBS 대구원음방송", "stn": "wbs", "ch": null, "city": "daegu"
+ },
+ { "name": "AFN FM Daegu", "stn": "afn", "ch": null, "city": "daegu"
+ },
+ { "name": "KBS광주 1라디오", "stn": "kbs", "ch": "1radio", "city": "gwangju"
+ },
+ { "name": "KBS광주 2라디오", "stn": "kbs", "ch": "2radio", "city": "gwangju"
+ },
+ { "name": "KBS광주 음악FM", "stn": "kbs", "ch": "1fm", "city": "gwangju"
+ },
+ { "name": "KBS목포 1라디오", "stn": "kbs", "ch": "1radio", "city": "mokpo"
+ },
+ { "name": "KBS목포 음악FM", "stn": "kbs", "ch": "1fm", "city": "mokpo"
+ },
+ { "name": "KBS순천 1라디오", "stn": "kbs", "ch": "1radio", "city": "suncheon"
+ },
+ { "name": "광주MBC 표준FM", "stn": "mbc", "ch": "sfm", "city": "gwangju"
+ },
+ { "name": "광주MBC FM4U", "stn": "mbc", "ch": "fm4u", "city": "gwangju"
+ },
+ { "name": "목포MBC 표준FM", "stn": "mbc", "ch": "sfm", "city": "mokpo"
+ },
+ { "name": "목포MBC FM4U", "stn": "mbc", "ch": "fm4u", "city": "mokpo"
+ },
+ { "name": "여수MBC 표준FM", "stn": "mbc", "ch": "sfm", "city": "yeosu"
+ },
+ { "name": "여수MBC FM4U", "stn": "mbc", "ch": "fm4u", "city": "yeosu"
+ },
+ { "name": "KBC 마이FM", "stn": "sbs", "ch": "powerfm", "city": "gwangju"
+ },
+ { "name": "TBN 광주교통방송", "stn": "tbn", "ch": null, "city": "gwangju"
+ },
+ { "name": "광주CBS 표준FM", "stn": "cbs", "ch": "sfm", "city": "gwangju"
+ },
+ { "name": "광주CBS 음악FM", "stn": "cbs", "ch": "mfm", "city": "gwangju"
+ },
+ { "name": "전남CBS 표준FM", "stn": "cbs", "ch": "sfm", "city": "jeonnam"
+ },
+ { "name": "FEBC 광주극동방송", "stn": "febc", "ch": null, "city": "gwangju"
+ },
+ { "name": "FEBC 목포극동방송", "stn": "febc", "ch": null, "city": "mokpo"
+ },
+ { "name": "FEBC 전남동부극동방송", "stn": "febc", "ch": null, "city": "jeonnam"
+ },
+ { "name": "BBS 광주불교방송", "stn": "bbs", "ch": null, "city": "gwangju"
+ },
+ { "name": "CPBC 광주가톨릭평화방송", "stn": "cpbc", "ch": null, "city": "gwangju"
+ },
+ { "name": "WBS 광주원음방송", "stn": "wbs", "ch": null, "city": "gwangju"
+ },
+ { "name": "글로벌광주방송", "stn": "ggn", "ch": null, "city": null
+ },
+ { "name": "광주국악방송", "stn": "kugak", "ch": null, "city": "gwangju"
+ },
+ { "name": "KBS전주 1라디오", "stn": "kbs", "ch": "1radio", "city": "jeonju"
+ },
+ { "name": "KBS전주 2라디오", "stn": "kbs", "ch": "2radio", "city": "jeonju"
+ },
+ { "name": "KBS전주 음악FM", "stn": "kbs", "ch": "1fm", "city": "jeonju"
+ },
+ { "name": "전주MBC 표준FM", "stn": "mbc", "ch": "sfm", "city": "jeonju"
+ },
+ { "name": "전주MBC FM4U", "stn": "mbc", "ch": "fm4u", "city": "jeonju"
+ },
+ { "name": "JTV 매직FM", "stn": "sbs", "ch": "powerfm", "city": "jeonju"
+ },
+ { "name": "TBN 전북교통방송", "stn": "tbn", "ch": null, "city": "jeonbuk"
+ },
+ { "name": "전북CBS 표준FM", "stn": "cbs", "ch": "sfm", "city": "jeonbuk"
+ },
+ { "name": "FEBC 전북극동방송", "stn": "febc", "ch": null, "city": "jeonbuk"
+ },
+ { "name": "WBS 전북원음방송", "stn": "wbs", "ch": null, "city": "jeonbuk"
+ },
+ { "name": "AFN FM Kunsan", "stn": "afn", "ch": null, "city": "kunsan"
+ },
+ { "name": "KBS대전 1라디오", "stn": "kbs", "ch": "1radio", "city": "daejeon"
+ },
+ { "name": "KBS대전 2라디오", "stn": "kbs", "ch": "2radio", "city": "daejeon"
+ },
+ { "name": "KBS대전 음악FM", "stn": "kbs", "ch": "1fm", "city": "daejeon"
+ },
+ { "name": "대전MBC 표준FM", "stn": "mbc", "ch": "sfm", "city": "daejeon"
+ },
+ { "name": "대전MBC FM4U", "stn": "mbc", "ch": "fm4u", "city": "daejeon"
+ },
+ { "name": "TJB 파워FM", "stn": "sbs", "ch": "powerfm", "city": "daejeon"
+ },
+ { "name": "TBN 대전교통방송", "stn": "tbn", "ch": null, "city": "daejeon"
+ },
+ { "name": "TBN 충남교통방송", "stn": "tbn", "ch": null, "city": "chungnam"
+ },
+ { "name": "대전CBS 표준FM", "stn": "cbs", "ch": "sfm", "city": "daejeon"
+ },
+ { "name": "FEBC 대전극동방송", "stn": "febc", "ch": null, "city": "daejeon"
+ },
+ { "name": "대전국악방송", "stn": "kugak", "ch": null, "city": "daejeon"
+ },
+ { "name": "KBS청주 1라디오", "stn": "kbs", "ch": "1radio", "city": "cheongju"
+ },
+ { "name": "KBS청주 2라디오", "stn": "kbs", "ch": "2radio", "city": "cheongju"
+ },
+ { "name": "KBS청주 음악FM", "stn": "kbs", "ch": "1fm", "city": "cheongju"
+ },
+ { "name": "KBS충주 1라디오", "stn": "kbs", "ch": "1radio", "city": "chungju"
+ },
+ { "name": "KBS충주 음악FM", "stn": "kbs", "ch": "1fm", "city": "chungju"
+ },
+ { "name": "MBC충북 표준FM", "stn": "mbc", "ch": "sfm", "city": "cheongju"
+ },
+ { "name": "MBC충북 FM4U", "stn": "mbc", "ch": "fm4u", "city": "cheongju"
+ },
+ { "name": "CJB 조이FM", "stn": "sbs", "ch": "powerfm", "city": "cheongju"
+ },
+ { "name": "TBN 충북교통방송", "stn": "tbn", "ch": null, "city": "chungbuk"
+ },
+ { "name": "충북CBS 표준FM", "stn": "cbs", "ch": "sfm", "city": "cheongju"
+ },
+ { "name": "KBS춘천 1라디오", "stn": "kbs", "ch": "1radio", "city": "chuncheon"
+ },
+ { "name": "KBS춘천 2라디오", "stn": "kbs", "ch": "2radio", "city": "chuncheon"
+ },
+ { "name": "KBS춘천 음악FM", "stn": "kbs", "ch": "1fm", "city": "chuncheon"
+ },
+ { "name": "KBS강릉 1라디오", "stn": "kbs", "ch": "1radio", "city": "gangneung"
+ },
+ { "name": "KBS강릉 음악FM", "stn": "kbs", "ch": "1fm", "city": "gangneung"
+ },
+ { "name": "KBS원주 1라디오", "stn": "kbs", "ch": "1radio", "city": "wonju"
+ },
+ { "name": "KBS원주 음악FM", "stn": "kbs", "ch": "1fm", "city": "wonju"
+ },
+ { "name": "춘천MBC 표준FM", "stn": "mbc", "ch": "sfm", "city": "chuncheon"
+ },
+ { "name": "춘천MBC FM4U", "stn": "mbc", "ch": "fm4u", "city": "chuncheon"
+ },
+ { "name": "원주MBC 표준FM", "stn": "mbc", "ch": "sfm", "city": "wonju"
+ },
+ { "name": "원주MBC FM4U", "stn": "mbc", "ch": "fm4u", "city": "wonju"
+ },
+ { "name": "MBC강원영동 표준FM", "stn": "mbc", "ch": "sfm", "city": "gangneung"
+ },
+ { "name": "MBC강원영동 FM4U", "stn": "mbc", "ch": "fm4u", "city": "gangneung"
+ },
+ { "name": "G1 프레쉬FM", "stn": "sbs", "ch": "powerfm", "city": "chuncheon"
+ },
+ { "name": "TBN 강원교통방송", "stn": "tbn", "ch": null, "city": "gangwon"
+ },
+ { "name": "춘천CBS 표준FM", "stn": "cbs", "ch": "sfm", "city": "chuncheon"
+ },
+ { "name": "강원영동CBS 표준FM", "stn": "cbs", "ch": "sfm", "city": "youngdong"
+ },
+ { "name": "FEBC 강원극동방송", "stn": "febc", "ch": null, "city": "gangwon"
+ },
+ { "name": "KBS제주 1라디오", "stn": "kbs", "ch": "1radio", "city": "jeju"
+ },
+ { "name": "KBS제주 2라디오", "stn": "kbs", "ch": "2radio", "city": "jeju"
+ },
+ { "name": "KBS제주 음악FM", "stn": "kbs", "ch": "1fm", "city": "jeju"
+ },
+ { "name": "제주MBC 표준FM", "stn": "mbc", "ch": "sfm", "city": "jeju"
+ },
+ { "name": "제주MBC FM4U", "stn": "mbc", "ch": "fm4u", "city": "jeju"
+ },
+ { "name": "JIBS 뉴파워FM", "stn": "sbs", "ch": "powerfm", "city": "jeju"
+ },
+ { "name": "TBN 제주교통방송", "stn": "tbn", "ch": null, "city": "jeju"
+ },
+ { "name": "제주CBS 표준FM", "stn": "cbs", "ch": "sfm", "city": "jeju"
+ },
+ { "name": "FEBC 제주극동방송", "stn": "febc", "ch": null, "city": "jeju"
+ },
+ { "name": "BBS 제주불교방송", "stn": "bbs", "ch": null, "city": "jeju"
+ },
+ { "name": "Arirang Radio", "stn": "arirang", "ch": null, "city": null
+ }
+]
