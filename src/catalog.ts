@@ -215,15 +215,16 @@ const febc: CatalogEntry[] = [
   entry("FEBC 제주극동방송", "febc", null, "jeju", febcLive2("jejufm")),
 ];
 
+// 지역 BBS는 smilecdn(Wowza)으로 옮겨졌다. 플레이어(https 페이지)에서 막히지 않도록
+// 같은 서버의 https 주소를 쓴다(2026-11-12 국내 브라우저에서 세 주소 모두 재생 확인).
+// 대구 공식 온에어 주소의 wowzatoken은 서버가 검사하지 않아 뺐다.
+const smilecdn = (path: string) => fixed(`https://live.cdn.smilecdn.com:1935/${path}/playlist.m3u8`);
+
 const bbs: CatalogEntry[] = [
   entry("BBS 서울불교방송", "bbs", null, null, fixed("https://bbslive.clouducs.com/bbsradio-mlive/radio.stream/playlist.m3u8")),
-  entry("BBS 부산불교방송", "bbs", null, "busan", fixed("http://live.cdn.smilecdn.com:1935/bbsfm_live/live.sdp/playlist.m3u8")),
-  // 공식 사이트(dgbbs.co.kr) 온에어가 쓰는 주소(2026-11-12 확인). wowzatoken 값은 2026-06-05~06
-  // 기간인데도 재생되어 서버가 토큰을 검사하지 않는 것으로 보이며, 사이트가 주는 값을 그대로 쓴다.
-  entry("BBS 대구불교방송", "bbs", null, "daegu", fixed(
-    "https://live.cdn.smilecdn.com:1935/dgbbs_live/live/playlist.m3u8?wowzatokenstarttime=1780643108&wowzatokenendtime=1780729508&wowzatokenCustomParameter=wowzatoken&wowzatokenhash=xm41e67wx0mSixlcYyXeJt2QTdS-wnuYqkcRynf4NaM=",
-  )),
-  entry("BBS 광주불교방송", "bbs", null, "gwangju", fixed("http://live.cdn.smilecdn.com:1935/kjbbs1_live/live/playlist.m3u8")),
+  entry("BBS 부산불교방송", "bbs", null, "busan", smilecdn("bbsfm_live/live.sdp")),
+  entry("BBS 대구불교방송", "bbs", null, "daegu", smilecdn("dgbbs_live/live")),
+  entry("BBS 광주불교방송", "bbs", null, "gwangju", smilecdn("kjbbs1_live/live")),
   entry("BBS 제주불교방송", "bbs", null, "jeju", fixed("http://kdbmobile.clouducs.com:1935/jeju/jeju.stream_aac/playlist.m3u8")),
 ];
 
