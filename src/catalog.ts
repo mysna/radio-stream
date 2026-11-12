@@ -215,10 +215,11 @@ const febc: CatalogEntry[] = [
   entry("FEBC 제주극동방송", "febc", null, "jeju", febcLive2("jejufm")),
 ];
 
-// 지역 BBS는 smilecdn(Wowza)으로 옮겨졌다. 플레이어(https 페이지)에서 막히지 않도록
-// 같은 서버의 https 주소를 쓴다(2026-11-12 국내 브라우저에서 세 주소 모두 재생 확인).
+// 지역 BBS는 smilecdn(Wowza)으로 옮겨졌다. 1935 포트는 http만 받고 https로 접속하면
+// ERR_SSL_PROTOCOL_ERROR가 나므로, https 플레이어 페이지에서 막히지 않도록 기본 포트(443)의
+// https 주소를 쓴다(부산영어방송과 같은 방식, 2026-11-12 세 채널 모두 200 확인).
 // 대구 공식 온에어 주소의 wowzatoken은 서버가 검사하지 않아 뺐다.
-const smilecdn = (path: string) => fixed(`https://live.cdn.smilecdn.com:1935/${path}/playlist.m3u8`);
+const smilecdn = (path: string) => fixed(`https://live.cdn.smilecdn.com/${path}/playlist.m3u8`);
 
 const bbs: CatalogEntry[] = [
   entry("BBS 서울불교방송", "bbs", null, null, fixed("https://bbslive.clouducs.com/bbsradio-mlive/radio.stream/playlist.m3u8")),
